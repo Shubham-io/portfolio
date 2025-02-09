@@ -1,6 +1,6 @@
 import React from "react";
 import { BiLogoMongodb, SiExpress, FaReact, FaNodeJs } from "./Icons";
-import pic from "../../public/profilPic.png";
+import pic from "../../public/pp.png";
 import { ReactTyped } from "react-typed";
 import SocialHandles from "./SocialHandles";
 
@@ -9,13 +9,13 @@ const Home = () => {
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-32"
+        className="max-w-screen-2xl container mx-auto px-8 md:px-20 py-32"
       >
         <div className="flex flex-col md:flex-row ">
           <div className="md:w-[65%] mt-10 md:mt-6 space-y-2 order-2 md:order-1 md:mr-20 px-4">
             <span className="text-2xl">Welcome In My Feed</span>
             <div className="flex space-x-2 text-2xl md:text-4xl">
-              <h1 className="text-4xl">Hello, I'm a </h1>
+              <h1 className="md:text-4xl text-2xl">Hello, I'm a </h1>
               <ReactTyped
                 strings={["Developer", "Programmer", "Coder"]}
                 typeSpeed={40}
@@ -53,12 +53,12 @@ const Home = () => {
             <br />
             {/* social media icons  */}
             <div className="flex flex-col md:flex-row justify-between items-center space-y-6">
-              <div className="space-y-1">
+              <div className="space-y-1 flex flex-col items-center justify-center">
                 <h2 className="text-xl font-semibold">Available on</h2>
                 <SocialHandles />
               </div>
 
-              <div className="space-y-1">
+              <div className="space-y-1 flex flex-col items-center justify-center">
                 <h2 className="text-xl font-semibold">Currently working on</h2>
                 <div className="flex space-x-4">
                   <BiLogoMongodb className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 duration-200" />

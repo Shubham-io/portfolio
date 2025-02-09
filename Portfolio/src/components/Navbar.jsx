@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic from "../../public/profilPic.png";
+import pic from "../../public/pp.png";
 import { IoIosMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { Link } from "react-scroll";
@@ -64,6 +64,7 @@ const Navbar = () => {
                 duration={500}
                 offset={-70}
                 activeClass="active"
+                onClick={() => setMenu(!menu)}
               >
                 {item}
               </Link>

@@ -75,7 +75,7 @@ const Experience = () => {
   return (
     <div
       name="Tech Stack"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-10 py-4"
+      className="max-w-screen-2xl container mx-auto px-10 md:px-20 my-10 py-4"
     >
       <div>
         <h1 className="text-3xl font-bold mb-2">Tech Stack</h1>
