@@ -2,7 +2,7 @@ import React from "react";
 import clinic from "../../public/projects/Clinic.png";
 import currencyCon from "../../public/projects/CurrencyCon.png";
 import expenseTracker from "../../public/projects/ExpenseTracker.png";
-import passManager from "../../public/projects/passManager.png";
+import passManager from "../../public/projects/PassManager";
 import quizApp from "../../public/projects/QuizApp.png";
 
 const Portfolio = () => {
@@ -25,8 +25,7 @@ const Portfolio = () => {
       id: 3,
       logo: expenseTracker,
       name: "Expense Tracker",
-      brief:
-        "Tracks income and expenses for better financial management.",
+      brief: "Tracks income and expenses for better financial management.",
       Url: "https://github.com/Shubham-io/React-Projects/tree/master/Mini/08ExpenseTracker",
     },
     {
@@ -40,8 +39,7 @@ const Portfolio = () => {
       id: 5,
       logo: quizApp,
       name: "Quiz App",
-      brief:
-        "Interactive quiz app with MCQs and scoring.",
+      brief: "Interactive quiz app with MCQs and scoring.",
       Url: "https://github.com/Shubham-io/React-Projects/tree/master/Intermediate/Quiz%20App",
     },
   ];
