@@ -2,7 +2,7 @@ import React from "react";
 import clinic from "../../public/projects/Clinic.png";
 import currencyCon from "../../public/projects/CurrencyCon.png";
 import expenseTracker from "../../public/projects/ExpenseTracker.png";
-import passManager from "../../public/projects/PassManager";
+import passManager from "../../public/projects/PassManager.png";
 import quizApp from "../../public/projects/QuizApp.png";
 
 const Portfolio = () => {
